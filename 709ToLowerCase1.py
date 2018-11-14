@@ -8,6 +8,5 @@ class Solution(object):
 
 
 # "".join(chr(ord(c)+32) if 'A'<=c<='Z' else c for c in str)
-
-print('HBSE'.lower())
+# print('HBSE'.lower())
 

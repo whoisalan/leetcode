@@ -16,9 +16,6 @@ class Solution(object):
             
 
 
-
-
-
 a = Solution()
 input1=["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
 print(a.numUniqueEmails(input1))
