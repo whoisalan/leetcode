@@ -1,4 +1,3 @@
-
 class Solution(object):
     def flipAndInvertImage(self, A):
         """
@@ -8,7 +7,7 @@ class Solution(object):
 
         
         for i in range(len(A)):
-             A[i] = list(reversed(A[i]))
+            A[i] = list(reversed(A[i]))
             A[i] = list(map(yihuo,A[i]))
             
         return A
