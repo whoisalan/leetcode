@@ -7,7 +7,6 @@ class Solution:
         high = len(S)
         low = 0
         ans = []
-       
         for i in range(0,len(S)):
             if S[i] == 'I':
                 ans.append(low) 

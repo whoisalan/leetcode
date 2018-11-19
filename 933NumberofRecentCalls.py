@@ -5,7 +5,6 @@
 #     list.pop(0)
 
 
-
 class RecentCounter:
 
     def __init__(self):
