@@ -1,3 +1,3 @@
 class Solution(object):
     def transpose(self, A):
-        return zip(*A)
+        return list(zip(*A))
