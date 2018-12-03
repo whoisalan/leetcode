@@ -22,7 +22,4 @@ class Solution:
                 if board[i][j] == 'X':
                     func(i,j,num)
                     num+=1
-        
-       
-        
         return num
