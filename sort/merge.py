@@ -8,16 +8,13 @@ ef merge(a, b):
         else:
             c.append(b[h])
             h += 1
-
     if j == len(a):
         for i in b[h:]:
             c.append(i)
     else:
         for i in a[j:]:
             c.append(i)
-
     return c
-
 
 def merge_sort(lists):
     if len(lists) <= 1:
